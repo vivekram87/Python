@@ -1,0 +1,4 @@
+4c4
+<     usage = psutil.cpu_percent()
+---
+>     usage = psutil.cpu_percent(1)
