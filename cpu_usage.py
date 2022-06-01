@@ -8,3 +8,5 @@ if not check_cpu_usage(75):
     print("Error! CPU is overloaded")
 else:
     print("Everything is ok!")
+
+    '''Comment one'''
