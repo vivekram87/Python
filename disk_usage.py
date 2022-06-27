@@ -1,7 +1,7 @@
 import shutil
 import sys
 
-def check_disk_usage(disk, min_absolute, min_percent):
+def check_disk_usage(disk, min_gb, min_percent):
 #Returns true if the disk is free, else false
     du = shutil.disk_usage(disk)
 # to calculate % of free space
