@@ -8,7 +8,7 @@ def check_disk_usage(disk, min_gb, min_percent):
     percent_free = 100 * du.free/du.total
 # to convert to GB
     gigabytes_free = du.free / 2**30
-    if percent_free < min_percent or gigabytes_free < min_absolute:
+    if percent_free < min_percent or gigabytes_free < min_percent:
         return False
     return True
 
