@@ -12,8 +12,8 @@ def main():
     print("Everything is ok!")
     sys.exit(0)
     
-'''def check_no_network():'''
-    '''Return True if it fails to resolve Google.com, else False'''
+'''def check_no_network():
+Return True if it fails to resolve Google.com, else False'''
 try:
     socket.gethostbyname("www.google.com")
     print ("False")
