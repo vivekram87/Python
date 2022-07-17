@@ -1,5 +1,8 @@
 import os
 import sys
+import shutil
+import psutil
+import socket
 
 def check_reboot():
     # Return true if the computer is pending a reboot
