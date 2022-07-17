@@ -1,5 +1,8 @@
 import os
 import sys
+import shutil
+import psutil
+import socket
 
 
 def check_reboot():
