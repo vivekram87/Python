@@ -20,7 +20,7 @@ def main():
 Return True if it fails to resolve Google.com, else False'''
 try:
     socket.gethostbyname("www.google.com")
-    print(socket.gethostbyname("www.google.com"))
+    print("IP of Google:"); print(socket.gethostbyname("www.google.com"))
     print ("False")
 except:
     print ("True")
