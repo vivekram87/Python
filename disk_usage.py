@@ -27,11 +27,7 @@ def main():
 
 # check for 2 gb free or 10% free space
 
-<<<<<<< HEAD
 if not check_disk_usage(disk="/", min_gb=10, min_percent=50):                       
-=======
-if not check_disk_usage(disk="/", min_gb=10, min_percent=10):                       
->>>>>>> 931298085e90ce22fab798b4c2c2e4b90c14b2e4
     print("Error, not enough disk space")
     sys.exit(1)
 '''("/", 2 , 10)''' 
