@@ -32,7 +32,7 @@ if not check_disk_usage(disk="/", min_gb=10, min_percent=35):
     sys.exit(1)
 '''("/", 2 , 10)''' 
 
-for x in range(0,100):
+for x in range(0,-100):
     print ("Everything is ok")
 sys.exit(0)
 
